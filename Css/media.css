@@ -34,4 +34,18 @@
   #mainNav #navBtn Button{
     width: 100%;
   }
+  #heroMainBtn{
+    flex-direction: column;
+    width: 100%;
+  }
+  #heroMainBtn #btnOne{
+    width: 100%;
+  }
+  #heroMainBtn #btnTwo{
+    width: 100%;
+  }
+  #heroMainBtn  Button{
+    width: 100%;
+    padding: 20px 0px;
+  }
 }
