@@ -9,6 +9,7 @@
   --primeryTextColorLightBlue: #0EA5E9;
   --primeryBtnColor: #684000;
   --primeryBtnBgColor: #FEA619;
+  --primeryBgColor:#f2f3ff;
   --primeyRadius: 10px;
 }
 
@@ -187,7 +188,7 @@ font-size: 32px;
 #cardContainer{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   gap: 10px;
     /* background-color: aqua; */
@@ -248,7 +249,7 @@ border-radius: 15px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  padding: 0px 24px;
+  padding:0px 24px;
 }
 #cardBtnDiv button{
   width: 100%;
@@ -271,3 +272,91 @@ border-radius: 15px;
   background-color: white;
 }
 
+/* Card is Complete */
+#why-chose-us-section{
+  background-color:var(--primeryBgColor) ;
+  padding: 100px 0px;
+}
+#why-chose-us-div{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+#why-chose-us-text{
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+#why-chose-us-card-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+    gap: 30px;
+    width: 100%;
+
+
+}
+#why-chose-us-card{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+width: 280px;
+gap: 24px;
+padding: 0px 20px;
+border-radius: 20px;
+background-color: white;
+height: 264px;
+}
+#why-chose-us-card-img{
+  width: 64px;
+}
+#why-chose-us-card-text{
+display: flex;
+flex-direction: column;
+gap: 10px;
+line-height: 1.5rem;
+}
+#why-chose-us-card-text h4{
+  font-weight: bold;
+  font-size: 18px;
+
+}
+#why-chose-us-card-text p{
+  font-size: 16px;
+  color: var(--primeryTextColorGray);
+}
+/* numbering part*/
+#numbering-section{
+  background-color: var(--primeryTextColorBlue);
+  color: white;
+  padding: 100px 0px;
+}
+#numbering-main-div{
+  box-sizing: border-box;
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+
+}
+#numbering-text {
+  text-align: center;
+}
+#numbering-text h2{
+  font-size: 64px
+}
+#numbering-text p{
+  font-weight: 500;
+}

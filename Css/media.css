@@ -55,5 +55,12 @@
     width: 100%;
     height: auto;
   }
+  #cardBtnDiv{
+    padding: 24px;
+  }
+  #numbering-main-div{
+    flex-direction: column;
+    gap: 50px;
+  }
   
 }
