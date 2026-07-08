@@ -62,5 +62,19 @@
     flex-direction: column;
     gap: 50px;
   }
-  
+#tourPakages-main-div{
+  /* flex-direction: row; */
+  width: 100%;
+  background-color: aqua;
+} 
+#tourPakages-card{
+  /* width: 100%; */
+  background-color: red;
+}
+#tour-card-container{
+width: 100%;
+padding: 20px 0px;
+
+flex-direction: column;
+}
 }
