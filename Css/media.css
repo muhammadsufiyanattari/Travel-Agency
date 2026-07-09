@@ -98,4 +98,30 @@ flex-direction: column;
   align-items: center;
   /* background-color: red; */
 }
+#subscrib-form-main-div{
+  width: 95%;
+  margin: 0px auto;
+  padding: 0px 20px;
+
+}
+#subscrib-form-text p{
+width: 100%;
+}
+#subscrib-form-input-btn-div{
+  flex-direction: column;
+  /* background-color: red; */
+  width: 100%;
+}
+#subscrib-form-input-btn-div #subscrib-form-input{
+  width: 100%;
+}
+#subscrib-form-input-btn-div #subscrib-form-input input{
+  width: 100%;
+}
+#subscrib-form-input-btn-div #subscrib-form-btn{
+  width: 100%;
+}
+#subscrib-form-input-btn-div #subscrib-form-btn button{
+  width: 100%;
+}
 }
