@@ -98,6 +98,48 @@ flex-direction: column;
   align-items: center;
   /* background-color: red; */
 }
+.small-screen-nav-link{
+  margin-top: 20px;
+  width: auto;
+  /* background-color: red; */
+}
+.small-screen-nav-link{
+  /* border-top: 1px solid var(--primeryTextColorGray); */
+}
+.small-screen-nav-link ul {
+  box-sizing: border-box;
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around !important;
+  align-items: center;
+  gap: 10px;
+}
+.small-screen-nav-link ul li {
+  list-style: none;
+  padding: 10px 0px;
+  width: 150px;
+  border-radius: 20px;
+  color: white!important;
+    background-color: var(--primeryTextColorBlue);
+} 
+.small-screen-nav-link ul li:hover{
+  color: var(--primeryTextColorBlue !important);
+
+  background-color: white!important;
+}
+.small-screen-nav-link ul li a {
+  text-decoration: none;
+  font-weight: 550;
+  font-size: 18px;
+  color: white !important;
+border: none !important;
+
+}
+.small-screen-nav-link ul li a:hover {
+text-decoration: none !important;
+color: var(--primeryTextColorBlue !important);
+}
 #subscrib-form-main-div{
   width: 95%;
   margin: 0px auto;
@@ -123,5 +165,22 @@ width: 100%;
 }
 #subscrib-form-input-btn-div #subscrib-form-btn button{
   width: 100%;
+}
+}
+@media screen and (max-width: 500px) {
+  #header-for-small-Screen-main-div{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+}
+.header-for-small-Screen-btn{
+  width: 100%;
+}
+.header-for-small-Screen-btn button{
+  width: 100% !important;
+  /* background-color: red; */
+   /* padding: 15px 24p.; */
 }
 }
