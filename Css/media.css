@@ -77,5 +77,14 @@
   flex-direction: column;
   gap: 20px;
 }
+#capture-moment-images-break-One{
+flex-direction: column;
+
+}
+#capture-moment-images-break-Two{
+ flex-direction: column;
+ 
+
+}
 
 }

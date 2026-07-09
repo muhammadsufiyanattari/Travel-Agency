@@ -388,7 +388,7 @@ header {
   font-weight: 500;
 }
 #tourPakages-section{
-background-color: var(--primeryBgColor);
+  background-color: #faf8ff;
 }
 #tourPakages-main-div{
   display: flex;
@@ -532,4 +532,32 @@ gap: 20px;
   max-width: 100%;
   flex-wrap: wrap;
   min-width:200px;
+}
+#capture-moment-section{
+  background-color: var(--primeryBgColor);
+   padding: 95px 0px;
+}
+#capture-moment-main-div{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+#capture-moment-images-main{
+  display: flex;
+  margin-top: 56px;
+  flex-direction: column;
+  width: 100%;
+}
+#capture-moment-images-break-One{
+  display: flex;
+  gap: 10px;
+
+}
+#capture-moment-images-break-Two{
+  display: flex;
+  gap: 24px;
+
 }
