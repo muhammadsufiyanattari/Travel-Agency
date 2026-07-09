@@ -83,11 +83,12 @@ header {
   border: none;
   padding: 15px 24px;
   font-weight: bold;
+     transition:transform 0.5s ,box-shadow 0.3s;
+
 }
 #navBtn button:hover {
   background-color: var(--primeryBtnColor);
   color: var(--primeryBtnBgColor);
-   transition:transform 0.5s ,box-shadow 0.3s;
   transform: scale(1.05);
 }
 #navBtn button:active {
@@ -209,7 +210,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  gap: 10px;
+  gap: 24px;
   /* background-color: aqua; */
   width: 100%;
 }
@@ -225,6 +226,7 @@ header {
   border-radius: 20px;
   /* background-color: gray; */
   overflow: auto;
+    transition:transform 0.5s ease-in-out,box-shadow 0.3s;
   box-shadow:
     rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -233,7 +235,6 @@ header {
   /* width: 100%; */
   z-index: 1;
   max-width: 400px;
-  transition:transform 0.5s ease-in-out,box-shadow 0.3s;
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   margin-bottom: 20px;
@@ -413,10 +414,11 @@ background-color: var(--primeryBgColor);
   color: var(--primeryTextColorGray);
 }
 #tourPakages-card{
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   width: 380px;
   /* height: 440px; */
   border: 3px solid var(--borderColor);
@@ -434,6 +436,7 @@ background-color: var(--primeryBgColor);
 }
 #tourPakagesTag {
   position: absolute;
+  text-align: center;
   /* display: none; */
   left: 50%;
   top: -15px;
@@ -498,22 +501,25 @@ background-color: var(--primeryBgColor);
   gap: 10px;
   margin: 20px 0px;
 }
-#tour-card-container{
+
+#tourPakages-card-main-div{
+  box-sizing: border-box;
   display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  align-content: center;
-  background-color: #684000;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+flex-wrap: wrap;
+gap: 20px;
+  width: 100%;
+}
+.centerCard{
+    transition:transform 0.5s ease-in-out,box-shadow 0.3s;
+
 }
 .centerCard:hover{
   z-index: 1;
   /* max-width: 400px; */
-  transition:transform 0.5s ease-in-out,box-shadow 0.3s;
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   margin-bottom: 20px;
-  background-color: #acc4d8 !important;
+  background-color: #c1dbf0 !important;
 }

@@ -1,6 +1,5 @@
 @media screen and (max-width: 950px) {
    header{
-    /* flex-direction: column; */
     position: static;
     padding:10px 0px;
    }
@@ -9,8 +8,10 @@
     height: auto;
     order: 1;
     gap: 24px;
-    /* background-color: skyblue; */
    } 
+   #heroH1Div h1 {
+  font-size: 50px; 
+  }
    
    #mainNav #navLinks{
     order: 3;
@@ -65,16 +66,16 @@
 #tourPakages-main-div{
   /* flex-direction: row; */
   width: 100%;
-  background-color: aqua;
 } 
 #tourPakages-card{
+  width: auto;
+  margin: 10px;
+}
+#tourPakages-card-main-div{
   /* width: 100%; */
-  background-color: red;
+  padding: 20px 10px;
+  flex-direction: column;
+  gap: 20px;
 }
-#tour-card-container{
-width: 100%;
-padding: 20px 0px;
 
-flex-direction: column;
-}
 }
