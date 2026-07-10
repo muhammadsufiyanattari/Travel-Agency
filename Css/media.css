@@ -152,9 +152,12 @@ width: 100%;
   width: 100%;
 }
 #subscrib-form-input-btn-div #subscrib-form-input{
+  display: block !important;
   width: 100%;
 }
 #subscrib-form-input-btn-div #subscrib-form-input input{
+      /* flex-direction: column !important; */
+      display: block !important;
   width: 100%;
 }
 #subscrib-form-input-btn-div #subscrib-form-btn{
@@ -165,16 +168,40 @@ width: 100%;
 }
 #contact-section-main-div{
   flex-direction: column;
+  height: auto !important;
 }
 #contact-section-main-div #contact-left-side{
   width: 100% !important;
+  
 
 }
 #contact-section-main-div #contact-right-side{
   width: 100% !important;
+    padding:20px !important;
+
+
+}
+#contact-right-side-input{
+  display: block;
+  width: 100% !important;
+  
+}
+#contact-right-side-input input{
+  width: 100% !important;
+}
+#text-aera-div {
+  display: block;
+  width: 100% !important;
+}
+#text-aera-div #text-aera{
+  width: 100% !important;
+    height: 146px;
+
 
 }
 }
+
+
 @media screen and (max-width: 500px) {
   #header-for-small-Screen-main-div{
   display: flex;

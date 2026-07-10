@@ -646,6 +646,8 @@ gap: 20px;
 }
 #contact-section{
   /* padding: 0px 20px; */
+    margin-bottom: 20px;
+
 }
 #contact-section-main-div{
   box-sizing: border-box;
@@ -654,14 +656,11 @@ gap: 20px;
   align-items: center;
   gap: 50px;
   width: 100%;
-  height: 456px;
+  height: 456px !important;
 }
 #contact-section-main-div #contact-left-side{
 width: 554px;
-}
-#contact-section-main-div #contact-right-side{
-width: 554px;
-background-color: #0ea5e9;
+
 }
 #contact-left-side-text h2{
 font-size: 32px;
@@ -673,6 +672,7 @@ margin-bottom: 32px;
   color: var(--primeryTextColorGray);
 }
 .contact-icon-flex{
+  box-sizing: border-box;
   display: flex;
   gap: 10px;
   margin: 10px 0px;
@@ -687,4 +687,64 @@ margin-bottom: 32px;
 }
 .contact-left-side-text p{
   color: var(--primeryTextColorGray);
+}
+#contact-section-main-div #contact-right-side{
+      padding: 64px 48px !important;
+      background-color: var(--primeryBgColor);
+  box-sizing: border-box;
+width: 554px;
+  border-radius: 24px;
+
+/* background-color: #0ea5e9; */
+/* height: 100% !important; */
+
+}
+#contact-section-main-div #contact-right-side form{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 64px 48px !important; */
+  /* height: 100% !important; */
+
+}
+#contact-right-side-input{
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#contact-right-side-input input{
+  box-sizing: border-box !important;
+  all: unset;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid var(--borderColor);
+  width: 212px;
+  padding: 10px 10px;
+}
+#text-aera-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 100%;
+  /* box-sizing: border-box; */
+  margin: 24px 0px !important;
+}
+#text-aera-div #text-aera{
+  box-sizing: border-box;
+  padding-left: 10px !important;
+  padding-top: 10px !important;
+  width: 448px !important;
+  all: unset;
+   background-color: white;
+  border-radius: 10px;
+  border: 2px solid var(--borderColor);
+  height: 146px;
+    resize: none;
+
 }
