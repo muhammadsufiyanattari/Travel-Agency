@@ -33,8 +33,8 @@ button {
   cursor: pointer;
 }
 .mainContainer {
-  width: 90%;
-  margin: 0 auto;
+  width: 90% !important;
+  margin: 0 auto !important;
 }
 header {
   box-sizing: border-box;
@@ -603,21 +603,28 @@ gap: 20px;
   justify-content: center;
   align-items: center;
   gap: 16px;
+  /* background-color: ; */
 }
 #subscrib-form-input-btn-div input{
   /* padding: 10px 30px; */
+    all: unset;
   box-sizing: border-box;
   width: 289px;
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
+  background-color: white;
+  
 }
-
+#subscrib-form-input-btn-div input:hover{
+  background-color: rgb(211, 206, 206);
+  color: black;
+}
 
 #subscrib-form-input-btn-div button {
   background-color: var(--primeryBtnBgColor);
   color: var(--primeryBtnColor);
-  font-size: 16px;
+  font-size: 16px !important;
   border-radius: 8px;
   border: none;
   padding: 8px 20px;
@@ -633,4 +640,51 @@ gap: 20px;
 #subscrib-form-input-btn-div button:active {
   color: var(--primeryBtnColor);
   background-color: var(--primeryBtnBgColor);
+}
+.contact-left-side-icon img{
+  width: 48px;
+}
+#contact-section{
+  /* padding: 0px 20px; */
+}
+#contact-section-main-div{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  height: 456px;
+}
+#contact-section-main-div #contact-left-side{
+width: 554px;
+}
+#contact-section-main-div #contact-right-side{
+width: 552px;
+background-color: #0ea5e9;
+}
+#contact-left-side-text h2{
+font-size: 32px;
+margin-bottom: 32px;
+}
+#contact-left-side-text p{
+  font-size: 16px;
+  margin-bottom: 32px;
+  color: var(--primeryTextColorGray);
+}
+.contact-icon-flex{
+  display: flex;
+  gap: 10px;
+  margin: 10px 0px;
+  /* justify-content: center; */
+  align-items: center;
+}
+.contact-left-side-text{
+  margin: 10px 0px;
+}
+.contact-left-side-text h3{
+  margin: 5px 0px ;
+}
+.contact-left-side-text p{
+  color: var(--primeryTextColorGray);
 }

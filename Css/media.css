@@ -117,16 +117,14 @@ flex-direction: column;
 }
 .small-screen-nav-link ul li {
   list-style: none;
-  padding: 10px 0px;
+  padding: 12px 0px;
   width: 150px;
-  border-radius: 20px;
+  border-radius: 24px;
   color: white!important;
     background-color: var(--primeryTextColorBlue);
 } 
 .small-screen-nav-link ul li:hover{
-  color: var(--primeryTextColorBlue !important);
-
-  background-color: white!important;
+background-color: var(--primeryTextColorLightBlue);
 }
 .small-screen-nav-link ul li a {
   text-decoration: none;
@@ -138,7 +136,6 @@ border: none !important;
 }
 .small-screen-nav-link ul li a:hover {
 text-decoration: none !important;
-color: var(--primeryTextColorBlue !important);
 }
 #subscrib-form-main-div{
   width: 95%;
@@ -166,6 +163,17 @@ width: 100%;
 #subscrib-form-input-btn-div #subscrib-form-btn button{
   width: 100%;
 }
+#contact-section-main-div{
+  flex-direction: column;
+}
+#contact-section-main-div #contact-left-side{
+  width: 100% !important;
+
+}
+#contact-section-main-div #contact-right-side{
+  width: 100% !important;
+
+}
 }
 @media screen and (max-width: 500px) {
   #header-for-small-Screen-main-div{
@@ -180,7 +188,9 @@ width: 100%;
 }
 .header-for-small-Screen-btn button{
   width: 100% !important;
+  border-radius: 10px !important;
   /* background-color: red; */
    /* padding: 15px 24p.; */
 }
+
 }
