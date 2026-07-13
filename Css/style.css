@@ -748,3 +748,24 @@ width: 554px;
     resize: none;
 
 }
+#form-btn-div{
+  width: 100%;
+}
+#form-btn-div button{
+  background-color: var(--primeryTextColorBlue);
+
+  color: white;
+  padding: 15px 0px;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+}
+#form-btn-div button:active{
+  color: var(--primeryTextColorBlue);
+
+  background-color: white;
+  padding: 15px 0px;
+
+}
