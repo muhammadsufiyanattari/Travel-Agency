@@ -800,3 +800,37 @@ margin-top: 90px !important;
   font-size: 18px;
   font-weight: bold;
 }
+#last-dive{
+  display: flex;
+  border-top: 1px solid var(--borderColor);
+  justify-content:center;
+  align-items: center;
+  position: relative;
+    height: 85px;
+}
+#last-dive p{
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+#last-div-icon{
+  box-sizing: border-box;
+  right: 5%;
+  bottom: 50%;
+    transform: translateX(50%);
+
+  position: absolute;
+  background-color: var(--primeryBtnBgColor);
+  border-radius: 35px;
+  text-align: center;
+  padding: 20px ;
+
+}
+#last-div-icon:hover{
+  background-color: #dc9016;
+  cursor: pointer;
+}
+#last-div-icon img{
+  width: 25px;
+}

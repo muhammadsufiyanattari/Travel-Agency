@@ -204,7 +204,9 @@ width: 100%;
   height: 100%;
 padding-top: 20px;
 }
-
+#last-div-icon{
+  right: 10%;
+}
 }
 
 
