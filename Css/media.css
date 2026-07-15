@@ -121,8 +121,7 @@ width: 100% !important;
   list-style: none;
     /* background-color: var(--primeryTextColorBlue); */
 } 
-.small-screen-nav-link ul li:hover{
-}
+
 .small-screen-nav-link ul li a {
   width: 100%;
   text-decoration: none;
